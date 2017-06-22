@@ -7,7 +7,7 @@ import io.here.annotition.SPI;
  * Email:   fingthinking@qq.com
  * Created: 2017年06月22日 13时44分
  */
-@SPI(clazz = MInterface.class)
+@SPI
 public class SPITest implements MInterface{
     public static void main(String[] args){
         System.out.println("hehe");

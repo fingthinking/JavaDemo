@@ -17,10 +17,6 @@ import java.lang.annotation.Target;
 // 标记在类上
 @Target(ElementType.TYPE)
 public @interface SPI {
-    /**
-     * @return 继承的接口或抽象类型
-     */
-    Class<?> clazz();
 
     /**
      * @return 实现类的名字,默认为类名
