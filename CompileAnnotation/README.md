@@ -6,3 +6,4 @@
 4. 在maven的pom文件中,compile-plugin增加`<compilerArgument>-proc:none</compilerArgument>`,否则会报错.
 
 注意,编译时注解需要单独打jar包给其他模块使用,在该模块内无法使用.
+使用Demo见[CompileAnnoDemo](../CompileAnnoDemo)

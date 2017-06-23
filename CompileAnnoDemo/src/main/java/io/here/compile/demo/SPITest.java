@@ -9,9 +9,6 @@ import io.here.annotition.SPI;
  */
 @SPI
 public class SPITest implements MInterface{
-    public static void main(String[] args){
-        System.out.println("hehe");
-    }
 
     public void show() {
 
